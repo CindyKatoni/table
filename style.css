@@ -1,0 +1,60 @@
+
+:root {
+    --fs-h2: 1.5rem;
+    --fs-h3: 1rem;
+
+
+}
+@media (min-width: 800px) {
+:root{
+    --fs-h2: 1.8rem;
+    --fs-h3: 1.5rem;
+
+}
+    
+}
+
+html, body{
+    width: auto;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(oleg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h2, h3{
+    text-align: center;
+}
+h2{font-size: var(--fs-h2);}
+h3{font-size: var(--fs-h3);}
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-width: 3px;
+    margin-top:2px;
+}
+td {
+    width: 5px;
+    height: 3px;
+    border: 1px solid black;
+    padding: 15px;
+    border-width: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+td:hover {
+    background: yellow;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+.table_container {
+    text-align: center;
+}
+.table_items {
+    display: inline-block;
+}
